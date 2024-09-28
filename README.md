@@ -1,3 +1,84 @@
+```json
+{
+  // Configurações de Inicialização
+  "workbench.startupEditor": "none",
+  
+  // Estilo do Editor
+  "editor.renderLineHighlight": "all", // Destaca a linha atual
+  "editor.wordWrap": "on", // Ativa a quebra de linha automática
+  "editor.cursorBlinking": "smooth", // Estilo de piscar do cursor
+  "editor.insertSpaces": true, // Insere espaços ao invés de tabulações
+  "editor.detectIndentation": false, // Desativa a detecção automática de indentação
+  "editor.tabSize": 2, // Define o tamanho da tabulação
+  "editor.formatOnSave": true, // Formata o código ao salvar
+  "editor.codeLens": true, // Mostra informações de código acima de funções
+  "editor.suggestOnTriggerCharacters": true, // Sugestões de código em caracteres de gatilho
+  "editor.snippetSuggestions": "inline", // Sugestões de snippets em linha
+  "editor.minimap.enabled": false, // Desativa o minimapa
+  "editor.autoClosingBrackets": "always", // Fecha automaticamente colchetes
+  "editor.autoClosingQuotes": "always", // Fecha automaticamente aspas
+  "editor.renderWhitespace": "all", // Mostra espaços em branco
+
+  // Configurações do Terminal Integrado
+  "terminal.integrated.fontFamily": "Cascadia Code", // Fonte do terminal
+  "terminal.integrated.fontSize": 14, // Tamanho da fonte do terminal
+
+  // Configurações do Visual Studio Code
+  "workbench.statusBar.visible": true, // Mostra a barra de status
+  "workbench.iconTheme": "material-icon-theme", // Tema de ícones
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)", // Tema de cores
+  "workbench.activityBar.location": "top", // Localização da barra de atividades
+  "window.customTitleBarVisibility": "windowed", // Visibilidade da barra de título
+  "symbols.hidesExplorerArrows": false, // Mostra setas do explorador
+  "explorer.sortOrder": "default", // Ordem de classificação do explorador
+  "explorer.autoReveal": true, // Revela arquivos automaticamente
+  "explorer.compactFolders": false, // Desativa pastas compactadas no explorador
+
+  // Configurações do Live Server
+  "liveServer.settings.donotShowInfoMsg": true, // Desativa mensagens de informação do Live Server
+
+  // Configurações do Code Runner
+  "code-runner.runInTerminal": true, // Executa código no terminal
+  "code-runner.clearPreviousOutput": true, // Limpa a saída anterior
+  "code-runner.executorMap": {
+      "python": "cls ; python -u" // Comando para executar Python
+  },
+  "code-runner.ignoreSelection": true, // Ignora seleção ao executar
+
+  // Configurações do Python
+  "python.defaultInterpreterPath": "python", // Caminho do interpretador Python
+
+  // Configurações do Debug
+  "debug.inlineValues": true, // Mostra valores das variáveis inline durante o debug
+
+  // Configurações de Auto-Save
+  "files.autoSave": "afterDelay", // Salva automaticamente após um atraso
+  "files.autoSaveDelay": 5000, // Atraso de 5 segundos para auto-save
+
+  // Configurações de ESlint
+  "eslint.enable": true, // Habilita o ESlint
+
+  // Configurações de Pesquisa
+  "search.useRipgrep": true, // Melhora a pesquisa de texto
+
+  // Configurações de Aparência
+  "background.enabled": true, // Ativa o uso de background
+  "background.image": "", // Imagem de fundo (deixe vazio se não for usar)
+  "workbench.colorCustomizations": {
+      "editor.background": "#000000", // Cor de fundo do editor
+      "editor.foreground": "#FFFFFF", // Cor do texto do editor
+      "editorCursor.foreground": "#fff238", // Cor do cursor
+      "editorBracketHighlight.foreground1": "#F9F1A5",
+      "editorBracketHighlight.foreground2": "#F9A5A5",
+      "editorBracketHighlight.foreground3": "#A5D9F9",
+      "editorBracketHighlight.foreground4": "#A5F9B8",
+      "editorBracketHighlight.foreground5": "#F2A5F9",
+      "terminal.background": "#000000", // Cor de fundo do terminal
+      "terminal.foreground": "#FFFFFF",
+  }
+}
+```
+
 # Extensões do Visual Studio Code
 
 Este repositório contém as extensões do Visual Studio Code que utilizo para desenvolvimento. Abaixo está uma lista das extensões instaladas, organizadas por categoria.
@@ -73,15 +154,3 @@ Este repositório contém as extensões do Visual Studio Code que utilizo para d
 ### Extensões de Ferramentas Adicionais
 - ![Settings Sync](https://raw.githubusercontent.com/microsoft/vscode-icons/master/icons/file_type_sync.svg) **[Settings Sync](https://marketplace.visualstudio.com/items?itemName=ShanKong.settings-sync)** (ShanKong.settings-sync): Sincroniza suas configurações e extensões entre diferentes instalações do VS Code.
 - ![Path Intellisense](https://raw.githubusercontent.com/microsoft/vscode-icons/master/icons/file_type_path.svg) **[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)** (christian-kohler.path-intellisense): Sugestões automáticas para caminhos de arquivos.
-
-
-```json
-{
-  "editor.fontSize": 14,
-  "editor.tabSize": 4,
-  "editor.formatOnSave": true,
-  "git.enableSmartCommit": true,
-  "workbench.colorTheme": "Dracula",
-  "files.autoSave": "afterDelay",
-  "editor.wordWrap": "on"
-}
