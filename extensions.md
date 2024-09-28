@@ -75,3 +75,13 @@ Este repositório contém as extensões do Visual Studio Code que utilizo para d
 - ![Path Intellisense](https://raw.githubusercontent.com/microsoft/vscode-icons/master/icons/file_type_path.svg) **[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)** (christian-kohler.path-intellisense): Sugestões automáticas para caminhos de arquivos.
 
 
+```json
+{
+  "editor.fontSize": 14,
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+  "workbench.colorTheme": "Dracula",
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "on"
+}
