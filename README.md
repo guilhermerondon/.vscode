@@ -3,6 +3,12 @@
   // Configurações de Inicialização
   "workbench.startupEditor": "none",
   
+
+```
+{
+  // Configurações de Inicialização
+  "workbench.startupEditor": "none",
+  
   // Estilo do Editor
   "editor.renderLineHighlight": "all", // Destaca a linha atual
   "editor.wordWrap": "on", // Ativa a quebra de linha automática
